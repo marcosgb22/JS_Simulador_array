@@ -1,0 +1,46 @@
+
+body {
+    position: relative;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    background-color: rgb(37, 34, 34);
+/*    background-image: url(../Recursos/Imagenes/nico_celular.jpg);*/
+
+    font-family: 'Oswald', sans-serif;
+    height: 100vh ;
+
+}
+
+
+
+a {
+    text-decoration :none
+   
+}
+li {
+    list-style: none;
+}
+
+a:hover,a:visited,a:link {
+    color: rgb(255, 255, 255);
+    
+  }
+
+.content_cards{
+    display: flex;  
+    flex-wrap: wrap;
+    
+}
+
+.card {
+
+    margin: 15px;
+}
+
+.FOOTER{
+    position: absolute;
+    bottom: 0;
+
+}
+
+
