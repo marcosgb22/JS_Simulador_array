@@ -1,30 +1,42 @@
 let TOTAL = [0,0];
 
 function agregar_compra (NFT, VALOR){
-    const MEN = 1;
-    const CALAVERA= 2;
-    const GIRASOL = 3;
-    const NICKITUS = 7;
+
+
+  const item = {
+    MEN: {
+      precio:1
+    },
+    CALAVERA: {
+      precio:2
+    },
+    GIRASOL: {
+      precio:3
+    },
+    NICKITUS: {
+      precio:7
+    }
+  }
 
     switch (NFT) {
         case 'MEN':
-            VALOR = VALOR + MEN;
+            VALOR = VALOR + item.MEN.precio;
             NO = 0;
             alert('COMPRASTE MEN');
             
           break;
         case 'CALAVERA':
-            VALOR = VALOR + CALAVERA;
+            VALOR = VALOR + item.CALAVERA.precio;
             NO = 0;
             alert('COMPRASTE CALAVERA');
           break;
         case 'GIRASOL':
-            VALOR = VALOR + GIRASOL;
+            VALOR = VALOR + item.GIRASOL.precio;
             NO = 0;
             alert('COMPRASTE GIRASOL');
           break;
         case 'NICKITUS':
-            VALOR = VALOR + NICKITUS;
+            VALOR = VALOR + item.NICKITUS.precio;
             NO = 0;
             alert('COMPRASTE NICKITUS');
           break;
